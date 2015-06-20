@@ -1,0 +1,92 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #444444;
+}
+
+header {
+	text-align: center;
+	background: #B299F2;
+	color: white;
+	background: url(images/background.jpg);
+}
+
+header img {
+	border:3px solid #FFF;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+a{
+	color: #38A88F;
+}
+
+h1 {
+	color: #FFFFFF;
+	font size: 48px;
+}
+
+img {
+	border: 2px dashed blue;
+}
+
+#about {
+		background: black;
+}
+
+.about {
+		color: white;
+}
+
+.links h2{
+	font-family: sans-serif;
+	color: grey;
+}
+
+.padded {
+	padding: 50px 100px;
+}
+
+.contact{
+	text-align: center;
+	color: #FFF;
+	background: url(images/dark_embroidery.png);
+	background-repeat: repeat-x;
+}
+
+.contact h2{
+	color: #FFF;
+}
+
+.contact img{
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	border: none;
+}
+
+.contact img:hover{
+	opacity: 0.5;
+
+}
+
+ul.websites{
+	padding: 0;
+}
+
+ul.websites li{
+	list-style: none;
+	display: inline-block;
+}
+
+.websites a{
+	background: #38A88F;
+	padding: 10px 20px;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+}	
+
+.websites a:hover {
+	background: #666;
